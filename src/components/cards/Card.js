@@ -1,6 +1,5 @@
 import React from "react";
 import Data from "../../helper/Data";
-// import cardStyle from "./Card.module.css";
 import cardStyle from "../../sass/cards.module.scss";
 
 const Card = () => {
