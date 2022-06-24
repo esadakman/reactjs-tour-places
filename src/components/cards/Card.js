@@ -10,7 +10,7 @@ const Card = () => {
         return (
           <div key={id} className={cardStyle["card"]}>
             <div className={cardStyle["cityName"]}>
-              <h3>{title}</h3>
+              <h2>{title}</h2>
             </div>
 
             <div className={cardStyle["images"]}>

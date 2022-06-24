@@ -14,12 +14,13 @@
       flex-wrap: wrap;
       .nav__item {
         a {
+          font-size: 1.2rem;
           padding: 1rem;
           text-decoration: none;
           color: $white;
           text-transform: uppercase;
           font-family: "Gloria Hallelujah", cursive;
-          border: 1px solid red;
+
           &:hover {
             transition: all 0.3s linear;
             background-color: $aqua;
