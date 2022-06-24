@@ -1,111 +1,9 @@
 @import "./variables";
 
-/* .container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-   
-  flex-wrap: wrap;
-  .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 15rem;
-    overflow: hidden;
-    background-color: $darkblue;
-    margin: 1rem;
-    color: $white;
-    padding: 1rem;
-    .cityName {
-      margin-top: 1rem;
-      font-family: "Gloria Hallelujah", cursive;
-      width: fit-content;
-     
-    }
-    .images {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 1rem;
-      img {
-        width: 100%;
-      }
-    
-    }
-    .description {
-       
-      overflow: hidden;
-      display: none;
-    }
-  }
-}
-  */
-
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(30%, 33%));
-  text-align: center;
-  gap: 2rem;
-  margin: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  .card {
-    position: relative;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    width: 100%;
-    padding: 5px;
-    background-color: $darkblue;
-    h1 {
-      color: white;
-      font-family: "Gloria Hallelujah", cursive;
-      text-align: left;
-      margin-left: 1rem;
-      letter-spacing: 5px;
-    }
-    img {
-      width: 100%;
-      height: 300px;
-      box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.329);
-      margin-top: 10px;
-      margin-bottom: 0px;
-      vertical-align: middle;
-    }
-    .desc {
-      background-color: #000;
-      text-align: justify;
-      overflow: hidden;
-      transition: 0.5s ease;
-      opacity: 0.7;
-      height: 0;
-      color: $white;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      font-size: 12px;
-      position: absolute;
-      &:hover {
-        height: 30%;
-      }
-      p {
-        font-size: 12px;
-        left: 0%;
-        padding: 10px 45px 10px 0;
-        text-align: justify;
-        margin: 15px 15px 0px 15px;
-        width: 100%;
-      }
-    }
-  }
-} */
-
 .cardContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  // display: grid;
-  // grid-template-columns: repeat(3, minmax(30%, 33%));
   gap: 2rem;
   padding: 0.5rem 1rem;
 
@@ -117,7 +15,7 @@
     overflow: hidden;
     border-radius: 10px;
     width: 30%;
-    min-width: 20rem;
+    min-width: 25rem;
     max-height: 24rem;
     .cityName {
       padding: 0.5rem;
@@ -130,13 +28,11 @@
       }
     }
     .images {
-      max-width: 500px;
+      // max-width: 500px;
       max-height: 300px;
       border-radius: 10px;
       filter: grayscale(0%);
       img {
-        // width: 100%;
-        // height: 100%;
         width: 100%;
         height: 300px;
       }
@@ -169,5 +65,11 @@
         }
       }
     }
+  }
+}
+
+@include media-1050 {
+  .card {
+    min-width: 25rem !important;
   }
 }

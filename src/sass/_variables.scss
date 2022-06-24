@@ -3,8 +3,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
 $lightgrey: #b4bec9;
-$aqua: #159a9c;
+$aqua: #65cfd1;
 $darkblue: #002333;
 $lightblue: #deefe7;
 $white: #ffffff;
 $shadow: rgba(0, 0, 0, 0.6);
+
+@mixin media-700 {
+  @media screen and (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin media-1050 {
+  @media screen and (max-width: 1100px) {
+    @content;
+  }
+}
