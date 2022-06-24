@@ -7,22 +7,22 @@ const Navbar = () => {
       <nav className={navbarStyle["nav"]}>
         <ul className={navbarStyle["nav__list"]}>
           <li className={navbarStyle["nav__item"]}>
-            <a href="index.html">About Us</a>
+            <a href="#aboutUs">About Us</a>
           </li>
           <li className={navbarStyle["nav__item"]}>
-            <a href="index.html">For You</a>
+            <a href="#foryou">For You</a>
           </li>
           <li className={navbarStyle["nav__item"]}>
-            <a href="index.html">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li className={navbarStyle["nav__item"]}>
-            <a href="index.html">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li className={navbarStyle["nav__item"]}>
-            <a href="index.html">Vlog</a>
+            <a href="#vlog">Vlog</a>
           </li>
           <li className={navbarStyle["nav__item"]}>
-            <a href="index.html">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
