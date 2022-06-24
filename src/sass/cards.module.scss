@@ -75,12 +75,10 @@
   }
 }
 
-@include media-300 {
+@include media-500 {
   .card {
-    img {
-      width: unset !important;
-      height: unset !important;
-    }
+    width: 5rem !important;
+    min-width: 5rem !important;
   }
 }
 
