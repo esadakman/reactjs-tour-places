@@ -1,1 +1,8 @@
 @import "./variables";
+
+.head {
+  text-transform: uppercase;
+  font-family: "Gloria Hallelujah", cursive;
+  padding: 2rem;
+  color: $darkblue;
+}
