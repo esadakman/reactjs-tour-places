@@ -41,7 +41,7 @@ SOLUTION
 - JS
 - ReactJS
 
-### You can reach my project from (here)[https://react-tour-placess.netlify.app/]
+### You can reach my project from [here !](https://react-tour-placess.netlify.app/)
 
 ![lang card](https://user-images.githubusercontent.com/98649983/176988266-6921542c-c3ea-4af4-af9d-f550dd53cc8c.gif)
  
