@@ -59,7 +59,7 @@
 To run this project, install it locally using npm or yarn:
 
 ```
-$ git clone https://github.com/esadakman/tour-places-react.git
+$ git clone https://github.com/esadakman/reactjs-tour-places.git
 $ cd tour-places-react
 $ npm install / yarn
 $ npm start / yarn start
