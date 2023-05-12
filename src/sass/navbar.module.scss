@@ -20,9 +20,8 @@
           color: $white;
           text-transform: uppercase;
           font-family: "Gloria Hallelujah", cursive;
-
+          transition: all 0.3s linear;
           &:hover {
-            transition: all 0.3s linear;
             background-color: $aqua;
             color: $darkblue;
           }
